@@ -17,37 +17,6 @@ Two experiments were conducted to compare the performance of different optimizer
 ## 4. Visualizations
 Training and validation loss and accuracy curves are provided in the `plots/` directory. A comparison plot for both models is available as `comparison_plots.png`.
 
-## 5. Instructions for Running the Project
-
-### Prerequisites
-- Python 3.x
-- pip (Python package installer)
-
-### Installation
-1. Clone the repository (or download the files).
-2. Navigate to the project directory:
-   ```bash
-   cd mnist_project
-   ```
-3. Install the required Python packages:
-   ```bash
-   sudo pip3 install torch torchvision matplotlib pandas seaborn
-   ```
-
-### Running the Experiments and Generating Results
-To train the models, run the `train.py` script. This script will download the MNIST dataset, train two CNN models (one with Adam optimizer and one with SGD optimizer), and save their training histories in the `results/` directory.
-
-```bash
-python3.11 train.py
-```
-
-### Generating Visualizations
-After running the `train.py` script, execute the `visualize.py` script to generate plots of training/validation loss and accuracy curves. The plots will be saved in the `plots/` directory.
-
-```bash
-python3.11 visualize.py
-```
-
 ### Project Structure
 ```
 mnist_project/
